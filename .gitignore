@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+*.sqlite
+*.sqlite-*
+*-model/
+temporary-build-files/

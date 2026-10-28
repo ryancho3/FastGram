@@ -1,0 +1,32 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "numba_available": true,
+  "order": 12,
+  "training_records": 500,
+  "sequence_length": 64,
+  "rounds": 20,
+  "vocabulary_size_including_specials": 43,
+  "array_bytes": 3279066,
+  "contexts": 121133,
+  "edges": 147017,
+  "build_seconds": 3.0200596499998937,
+  "kernel_warmup_seconds": 0.5357231349998983,
+  "measurements": {
+    "training_like": {
+      "batch_seconds": 0.2288370300002498,
+      "batch_predicted_tokens_per_second": 2840449.380064452,
+      "score_checksum": -316766.26169732417,
+      "single_call_predicted_tokens_per_second": 2545973.315827311
+    },
+    "random_candidates": {
+      "batch_seconds": 0.0795270389999132,
+      "batch_predicted_tokens_per_second": 8173320.774594782,
+      "score_checksum": -2997166.029283535,
+      "single_call_predicted_tokens_per_second": 6090798.13271136
+    }
+  },
+  "notes": "Synthetic corpus; warm resident arrays; includes EOS in token rates; no encoding or JIT in scoring rates.",
+  "numba": "0.68.0"
+}

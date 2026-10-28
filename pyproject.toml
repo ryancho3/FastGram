@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastgram"
+version = "0.1.0"
+description = "Array-based modified Kneser-Ney language models in Python and Numba"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+jit = ["numba>=0.59"]
+
+[tool.setuptools.packages.find]
+include = ["fastgram*"]
