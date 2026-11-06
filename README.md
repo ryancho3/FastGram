@@ -15,8 +15,7 @@ are deliberately not implemented yet.
 ## Run offline
 
 Requires Python 3.10+, NumPy, and (for speed) Numba with a compatible llvmlite.
-Use your approved installed versions. Do not upgrade an air-gapped environment
-just to run this package. Tested versions are recorded in `benchmark-results.json`.
+Tested versions are recorded in `benchmark-results.json`.
 
 Extract the archive and run commands from the directory containing this README.
 No installation or network access is needed if NumPy and Numba are already installed:
